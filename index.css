@@ -1,0 +1,257 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c385f;
+    color: white;
+    padding: small;
+  
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 12px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 32px;
+}
+header nav ul li a {
+    font-size: 18px; /* You can adjust the font size as per your requirement */
+    font-family: 'Montserrat Alternates', sans-serif; /* Applying the custom font */
+    text-decoration: none; /* Removing underline from the links */
+   
+   
+}
+
+
+header p {
+    font-size: 24px; /* You can adjust the font size as per your requirement */
+    font-family: 'Montserrat Alternates', sans-serif; /* Applying the custom font */
+    font-weight: 300; /* Setting the font weight */
+    /* color: #555; Setting the color of the text */
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section styles */
+.header {
+    position: relative;
+    text-align: center; /* Adjust the height as needed */
+    background-color: #8D98A7;
+    height: auto;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    
+}
+
+.hero {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+    top: 120px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 65px;
+    color: #f01919;
+    text-align: center;
+    
+}
+
+.hero p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px; /* Adjust the size as needed */
+    color:blue;
+    top: 30%;
+    text-shadow: #8D98A7 2px 1px 1px;
+}
+
+button{font-family: 'Montserrat Alternates', sans-serif;
+font-size: 35px;
+background-color: #8D98A7;
+}
+
+
+button[type="submit"] {
+    background-color: #1640D6; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 8px solid white;
+    
+  }
+  
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-shadow: 2px 2px white;
+}
+    
+
+  @media screen and (max-width: 600px) {
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1c385f;
+        color: white;
+        padding: small;
+      
+        
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 32px;
+        justify-content: center;
+    }
+    
+    nav li {
+        margin: 0 25px;
+    }
+    header nav ul li a {
+        font-size: 15px; /* You can adjust the font size as per your requirement */
+        font-family: 'Montserrat Alternates', sans-serif; /* Applying the custom font */
+        text-decoration: none; /* Removing underline from the links */
+       
+       
+    }
+    
+    
+    header p {
+        font-size: 15px; /* You can adjust the font size as per your requirement */
+        font-family: 'Montserrat Alternates', sans-serif; /* Applying the custom font */
+        font-weight: 300; /* Setting the font weight */
+        /* color: #555; Setting the color of the text */
+        margin-left: 4px;
+    }
+    .header img {
+        width: 100%;
+        height: 200%;
+        display: flex;
+
+        
+    }
+    button{font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 20px;
+        background-color: #8D98A7;
+        }
+        
+        
+        button[type="submit"] {
+            background-color: #1640D6; /* Green */
+            border: none;
+            color: white;
+            padding: 5px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 2px 1px;
+            transition-duration: 0.4s;
+            font-family: 'Montserrat Alternates', sans-serif;
+            cursor: pointer;
+            
+          }
+          .hero h1 {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 30px;
+            color: #f01919;
+            text-align: center;
+        
+            
+        }
+        
+        .hero p {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 22px; /* Adjust the size as needed */
+            color:#1640D6;
+            top: 0%;
+            text-shadow: #8D98A7 2px 1px 1px;
+        }
+        .hero {
+            display: flexbox;
+            
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+  }
+
+
+
+
+
+
+
+
+
