@@ -112,7 +112,7 @@ h1{font-family: 'Montserrat Alternates', sans-serif;}
       background-color: #ddd;
       color: black;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 480px) {
     /* Stack videos vertically */
     .video-container{
         flex-direction: column;
